@@ -1,0 +1,76 @@
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+
+.card-content h3 {
+  text-align: center;
+}
+
+.table-profile td,
+th {
+  border: none !important;
+}
+
+.table-profile td:first-of-type {
+  font-weight: bold;
+}
+
+.skills-content .media {
+  margin: 0 !important;
+  padding: 4px !important;
+  border: 0 !important;
+}
+
+.skills-content .progress {
+  height: 4px !important;
+}
+
+.custom-tags {
+  text-align: center !important;
+  display: block;
+}
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+
+.certification-image {
+  height: 200px; /* Adjust the height as needed */
+  width: 100%;
+  overflow: hidden;
+}
+
+.certification-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* This ensures the image covers the area without stretching */
+}
+
+.custom-background {
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  background-attachment: scroll, scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("/images/back.png") no-repeat;
+}
+
+.char-animation {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeInCharacter 0.5s forwards;
+}
+
+@keyframes fadeInCharacter {
+  to {
+    opacity: 1;
+  }
+}

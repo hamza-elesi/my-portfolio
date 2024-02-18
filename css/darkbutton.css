@@ -1,0 +1,20 @@
+/* Default light mode styles */
+body {
+    background-color: #fff; /* Light background */
+    color: #000; /* Dark text */
+  }
+  
+  /* Dark mode overrides */
+  .dark-mode {
+    background-color: #dad9d9; /* Dark background */
+    color: #181818; /* Light text */
+  }
+  
+  .dark-mode .navbar {
+    background-color: #838383; /* Darker navbar background */
+  }
+  
+  .dark-mode a.navbar-item {
+    color: #000000; /* Light text for navbar items */
+  }
+  
